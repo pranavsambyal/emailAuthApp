@@ -20,7 +20,7 @@ export default function ProfilePage() {
             <h1>Profile</h1>
             <hr />
             <p>Profile page</p>
-            <h2 className="p-3 rounded bg-red-500">{data==="nothing"?"Nothing":<Link href={`/profile/${data}`}>{data}</Link> }</h2>
+            <h2 className="p-3 rounded bg-red-500">{data==="nothing"?data:<Link href={`/profile/${data}`}>{data}</Link> }</h2>
             <hr />
             <button
             onClick={async ()=>{
