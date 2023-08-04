@@ -83,7 +83,7 @@ export default function SignUp() {
                 placeholder="password"
             />
             <button
-                disabled={buttonDisabled}l
+                disabled={buttonDisabled}
                 onClick={resetPassword}
                 className="p-2 border border-grey-300 rounded-lg mb-4 focus:outline-none focus:border-grey-600">
                 {buttonDisabled ? "Password's Don't Match" : "Reset"}</button>
